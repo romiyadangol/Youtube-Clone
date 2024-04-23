@@ -151,11 +151,11 @@ class App extends React.Component{
                   </div>
 
                   <div className="title">
-                    <h3>| Limi Valley | HUMLA | ep. 3</h3>
-                    <a href="">Sisan Baniya 
+                    <h3>7 Days Stranded At Sea</h3>
+                    <a href="">MrBeast 
                     <i className='material-icons'>check_circle</i>
                     </a><br/>
-                    <span>156K views • 6 months ago</span>
+                    <span>259M views • 8 months ago</span>
                   </div>  
                 </div>
               </div>
@@ -171,11 +171,11 @@ class App extends React.Component{
                   </div>
 
                   <div className="title">
-                    <h3>| Limi Valley | HUMLA | ep. 3</h3>
-                    <a href="">Sisan Baniya 
+                    <h3>Vanana Matra</h3>
+                    <a href="">John Rai 
                     <i className='material-icons'>check_circle</i>
                     </a><br/>
-                    <span>156K views • 6 months ago</span>
+                    <span>1.5M views • 1 month ago</span>
                   </div>  
                 </div>
               </div>
@@ -191,11 +191,12 @@ class App extends React.Component{
                   </div>
 
                   <div className="title">
-                    <h3>| Limi Valley | HUMLA | ep. 3</h3>
-                    <a href="">Sisan Baniya 
+                    <h3>When Dogs Go On A Rampage!! 🐶FUNNIEST Dogs</h3>
+                    <a href="">Ginger Cat
+ 
                     <i className='material-icons'>check_circle</i>
                     </a><br/>
-                    <span>156K views • 6 months ago</span>
+                    <span>717K views • 5 months ago</span>
                   </div>  
                 </div>
               </div>
