@@ -1,0 +1,178 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 15px;
+}
+
+/* logo-left */
+.logo-left{
+  display: flex;
+  align-items: center;
+}
+.logo-left #menu{
+  padding: 0 7px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.logo-left img{
+  width: 100px;
+  height: 25px;
+}
+.logo-left SUB{
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+/* search */
+.search{
+  display: flex;
+}
+.search form{
+  display: flex;
+  border: 1px solid #ccc;
+  height: 40px;
+  border-radius: 20px;
+}
+.search form input{
+  width: 500px;
+  padding: 10px 15px;
+  border: none;
+  height: 100%;
+  border-radius: 20px;
+  outline: none;
+}
+.search form button{
+  height: 100%;
+  width: 60px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+}
+.mic{
+  margin-top: 10px;
+}
+.material-icons {
+  color: rgb(100, 100, 100);
+  padding: 0 7px;
+  cursor: pointer;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+
+/* sidebar */
+.sidebar{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  /* margin-top: 10px; */
+}
+.nav-link{
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  border-radius: 10px;
+
+}
+.nav-link span{
+  margin-left: 10px;
+  font-size: 14px;
+  color: black;
+}
+.nav-link:hover{
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+hr{
+  width: 180px;
+  margin-top: 20px;
+  border: 1px solid #f1f1f1;
+}
+
+/* videos */
+.videos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 130px;
+
+}
+.video{
+  width: 280px;
+  margin-bottom: 30px;
+}
+.video_1{
+  width: 280px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.video_2{
+  width: 280px;
+}
+.video_3{
+  width: 280px;
+  margin-bottom: 30px;
+}
+.thumbnail{
+  width: 130%;
+  height: 200px;
+}
+.thumbnail img{
+  object-fit: cover;
+  width: 100%;
+  height: 94%;
+  border-radius: 15px;
+}
+.details{
+  display: flex;
+}
+.author img{
+  object-fit: cover;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+.title{
+  line-height: 18px;
+  font-size: 14px;
+  margin-bottom: 6px;
+  margin-left: 10px;
+}
+.title a,
+span {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+}
+.title .material-icons{
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+}
+label{
+  font-size: 15px;
+  font-weight: 510;
+}
+
+
+
+
+
+
