@@ -5,12 +5,13 @@ import image2 from './assets/v2.png'
 import image3 from './assets/v3.jpg'
 import image4 from './assets/v4.png'
 import image5 from './assets/v5.png'
-
+import image6 from './assets/v6.png'
 import profile1 from './assets/v1_profile.jpg'
 import profile2 from './assets/v2_profile.jpg'
 import profile3 from './assets/v3_profile.jpg'
 import profile4 from './assets/v4_profile.jpg'
 import profile5 from './assets/v5_profile.jpg'
+import profile6 from './assets/v6_profile.jpg'
 import './App.css'
 
 class App extends React.Component{
@@ -159,7 +160,7 @@ class App extends React.Component{
                 </div>
               </div>
 
-              <div className="video_3">
+              <div className="video_4">
                 <div className="thumbnail">
                   <img src={image5} alt="" />
                 </div>
@@ -179,14 +180,14 @@ class App extends React.Component{
                 </div>
               </div>
 
-              <div className="video_3">
+              <div className="video_5">
                 <div className="thumbnail">
-                  <img src={image4} alt="" />
+                  <img src={image6} alt="" />
                 </div>
 
                 <div className="details">
                   <div className="author">
-                    <img src={profile4} alt="" />
+                    <img src={profile6} alt="" />
                   </div>
 
                   <div className="title">
